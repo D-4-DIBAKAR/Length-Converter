@@ -1,0 +1,104 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
+
+html {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    font-size: 100%
+}
+
+body {
+    font-family: 'Righteous', cursive;
+    /* background-color: #806367; */
+    /* background: linear-gradient(to right, #10696b, #2b2473); */
+    background: rgb(102, 136, 255);
+    background: linear-gradient(180deg, rgb(135, 161, 255) 100%);
+    scroll-behavior: smooth;
+    padding-top: 30px;
+}
+
+
+
+
+.container {
+    width: 100%;
+    text-align: center;
+}
+
+.container>div {
+    margin-top: 30px;
+}
+
+
+.title {
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    font-weight: 700;
+}
+
+h4 {
+    color: rgb(32, 32, 32);
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 7px;
+    border: ridge 2px gray;
+    width: 80%;
+    outline: none;
+    border: none;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.2);
+    padding: 8px 10px;
+    padding-left: 40px;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 16px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+select {
+    padding: 7px 0;
+    width: fit-content;
+    border-radius: 15px;
+    line-height: 1.2px;
+    background-color: transparent;
+    color: #fff;
+    font-weight: 700;
+}
+
+select>option {
+    color: #000;
+    background-color: #608aff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    border: none;
+}
+
+select,
+#fromSelect,
+#toSelect,
+button {
+    padding: 7px 30px;
+    margin-top: 30px;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    outline: none;
+}
+
+#note {
+    margin-top: 50px;
+}
